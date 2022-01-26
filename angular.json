@@ -120,6 +120,9 @@
               "devServerTarget": "angular-threejs-staterpack:serve:production"
             }
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy"
         }
       }
     }
